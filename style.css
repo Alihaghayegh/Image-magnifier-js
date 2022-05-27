@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+
+h1 , p {
+    color: white;
+}
+
 .img-magnifier-container {
     position: relative;
 }
